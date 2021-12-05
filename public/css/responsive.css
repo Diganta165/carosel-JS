@@ -1,0 +1,313 @@
+
+
+@media screen and (max-width:1500px){
+    .prev_btn, .next_btn {
+        display: block !important;
+    }
+    .skillrr_header_bottom_area_wrapper{
+        max-width: 1500px;
+       overflow: hidden;
+    }
+    .skillrr_header_bottom_area .skillrr_header_bottom_list {
+        padding: 0px 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .skillrr_choose_activities {
+        grid-gap: 35px;
+    }
+    .working_procedure_items {
+        grid-column-gap: 60px;
+        grid-row-gap: 27px;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+   #skillrr_header_section {
+        position: sticky;
+        top: 0;
+        left: 0;
+        background:#fff;
+        width: 100%;
+        z-index: 99999;
+    }
+    .skillrr_header_top_area {
+        padding: 20px 0px 20px 0px;
+    }
+    .skillrr_header_search_box {
+        position: relative;
+       left: 0px;
+    }
+    .skillrr_header_search_icon {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 999;
+    }
+    .skillrr_header_search_filed {
+        position: absolute;
+        left: -241px !important;
+        min-width: 0px;
+        height: 30px;
+        display: none;
+        z-index: 111;
+    }
+    .skillrr_header_search_filed  input[type="text"] {
+        width: 100%;
+        height: 100%;
+        border: 1px solid rgba(30,39,46,.3);
+        border-radius: 5px;
+        padding: 5px  35px 5px 10px;
+        outline: none;
+    }
+    .skillrr_header_top_nav_right{
+        display: none;
+    }
+    /* sidebar nav active */
+    .dropdown_area{
+        display: block;
+    }
+    .nav_list {
+        display: block;
+        overflow-y: scroll;
+        height: 100%;
+    }
+
+   .nav_list .sidebar_close_button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .sidebar_close_button_area {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .sidebar_close_button_area .cross_line{
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: #000;
+        
+    }
+    .sidebar_close_button_area .cross_line:nth-child(1){
+       transform: rotate(45deg);
+       transition: all .3s ease;
+    }
+    .sidebar_close_button_area .cross_line:nth-child(2){
+        transform: rotate(-45deg);
+        transition: all .3s ease;
+    }
+    .sidebar_close_button_area:hover .cross_line:nth-child(1){
+        transform: rotate(0deg);
+    }
+    .sidebar_close_button_area:hover .cross_line:nth-child(2){
+        transform: rotate(0deg);
+    }
+    .mobile_hamburhger_toggle_icon{
+        display: block;
+    }
+    .skillrr_header_top_nav_middle{
+        display: none;
+    }
+
+    /* mobile header */
+    .skillrr_header_top_nav_left {
+        width: 100%;
+    }
+    .skillrr_header_top_nav_left_inner{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    /* header bottom hidden */
+    .skillrr_header_bottom_area{
+        display: none;
+    }
+
+
+
+
+   /*   HERO AREA  */
+    .skillrr_hero_area{
+        padding: 90px 0px;
+    }
+    .hero_area_left{
+        width: 100%;
+    }
+   .hero_area_right{
+       display: none;
+   }
+   /* statistics area */
+   .company_statistics_inner_items {
+    column-gap: 100px;
+}
+   /* footer area */
+   .skillrr_footer_top_inner_area {
+       flex-direction: column;
+   }
+   .skillrr_footer_top_inner_area .skillrr_footer_column:not(:last-child){
+      margin-bottom: 40px;
+       position: relative;
+   }
+   .skillrr_footer_top_inner_area .skillrr_footer_column:not(:last-child)::after{
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 2px;
+     background:rgba(112,112,112,.2);
+     margin-top: 20px;
+     margin-bottom: 20px;
+
+   }
+   .all_category_btn{
+    justify-content: flex-start;
+}
+  
+   
+}
+
+@media screen and (max-width:768px) {
+
+    .container {
+        padding: 0px 20px;
+    }
+
+    /* hero area */
+
+    .skillrr_hero_content h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        line-height: 35px;
+    }
+    #hero_area .skillrr_hero_content p{
+        margin-bottom: 25px;
+    }
+
+    /* company statistics */
+
+    #company_statistics {
+        padding: 50px 0px;
+    }
+    .company_statistics_inner_items {
+        flex-direction: column;
+    }
+    .company_statistics_inner_items .company_statistics_single_item:not(:last-child) {
+        margin-right: unset;
+        margin-bottom: 50px;
+    }
+    .company_statistics_single_item{
+        flex-direction: row;
+    }
+    .company_statistics_details {
+        text-align: left;
+    }
+    .company_statistics_inner_items .company_statistics_icon {
+        width: 30px;
+        height: 30px;
+        margin-bottom:0;
+        margin-right: 15px;
+    }
+    .company_statistics_inner_items .company_statistics_icon svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .company_statistics_inner_items .company_statistics_number p {
+        font-size: 24px;
+    }
+
+
+    /* tab category */
+    #skillrr_category_tab_area {
+        padding: 90px 0px;
+    }
+    .all_category_items {
+        grid-template-columns: repeat(auto-fit,minmax(219px,1fr));
+        grid-gap: 25px;
+    }
+    /* testimonial area */
+
+    #company_testimonial {
+        padding: 50px 0px;
+    }
+    .company_testimonial_title{
+        margin-bottom: 30px;
+    }
+    .company_testimonial_carousel_content {
+        margin-bottom: 30px;
+    }
+    /* why people choose us */
+    .skillrr_choose_us_section {
+        padding: 50px 0px;
+    }
+    .skillrr_choose_activities {
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 36px;
+    }
+    .skillrr_choose_us_header {
+        margin-bottom: 38px;
+    }
+    .common_heading_title h4{
+
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .choose_activity_content .choose_activity_title,
+    .working_procedure_title_description .working_procedure_title{
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 500;
+    }
+
+    /* working procedure */
+    .working_procedure_section {
+        padding: 90px 0px;
+    }
+    .working_procedure_items {
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 30px;
+    }
+    .working_procedure_title h4{
+        margin-bottom: 30px;
+    }
+    .working_procedure_title{
+        margin-bottom: 10px;
+    }
+    .working_procedure_number {
+        margin-right: 25px;
+    }
+    .working_procedure_item .working_procedure_number p {
+        font-size: 20px;
+    }
+    /* footer area */
+    .skillrr_footer_top {
+        padding: 35px 0px 20px 0px;
+    }
+    .skillrr_footer_bottom_inner_item.d_flex.align_center.justify_between {
+        flex-direction: column;
+        row-gap: 12px;
+    }
+}
+
+
+@media screen and (max-width:502px) {
+    .all_category_items {
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    }
+}
+@media screen and (max-width:414px) {
+    #hero_area .skillrr_hiring{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}

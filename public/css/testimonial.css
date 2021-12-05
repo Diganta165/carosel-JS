@@ -1,0 +1,81 @@
+
+#company_testimonial{
+    background:rgba(112,112,112,.05);
+    padding: 100px 0px;
+}
+.company_testimonial_carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.company_testimonial_carousel_content {
+    max-width: 844px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.clients_profile_image{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-bottom:15px;
+}
+.clients_profile_image svg{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.clients_profile_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients_testimonial_carousel_dots .dot{
+    cursor: pointer;
+    background: rgba(30,39,46,.3);
+}
+.clients_testimonial_carousel_dots .dot_One,
+.clients_testimonial_carousel_dots .dot_five{
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+}
+.clients_testimonial_carousel_dots .dot_two,
+.clients_testimonial_carousel_dots .dot_four{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
+.clients_testimonial_carousel_dots .dot_three{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.clients_testimonial_carousel_dots .dot:not(:last-child){
+    margin-right:8px;
+}
+.active_carousel{
+    background:var(--color2) !important;
+}
+.company_testimonial_carousel_content .clients_message {
+    font-size: 14px;
+    line-height: 27px;
+    color: rgba(30,39,46,.5);
+    font-style: italic;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.clients_profile_title p{
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color1);
+    font-weight: 700;
+}
+.clients_profile_title span{
+    font-size: 14px;
+    line-height: 21px;
+    color:rgba(30,39,46,.5);
+    font-weight: 400;
+}
